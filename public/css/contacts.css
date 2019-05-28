@@ -1,0 +1,139 @@
+body {
+    font-family: Open Sans;
+    background: #f4f4f4;
+}
+
+.color-tq {
+    color: #73c6cc !important;
+}
+
+.bg-tq {
+    background: #73c6cc !important;
+}
+
+hr.tq {
+    height: 2px;
+    background: #73c6cc !important;
+}
+
+.form-group h5 {
+    font-size: 16px;
+    color: #73c6cc !important;
+    text-transform: lowercase;
+}
+
+.main-content {
+    background: #fff;
+    padding-bottom: 100px;
+}
+
+.top-header {
+    background: #73c6cc;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    border-bottom: 8px solid;
+    border-color: #a0d9dc;
+}
+
+.contacts-nav {
+    border-bottom: 2px solid #73c6cc;
+    padding: 30px 0 30px 0;
+}
+
+.contact-box {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+
+.add-new-contact {
+    padding-top: 75px;
+    border: 1px dashed #73c6cc;
+    text-align: center;
+}
+
+.contact-delete-icon,
+.contact-edit-icon,
+.contact-favorite-icon {
+    color: #777;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.contact-delete-icon:hover,
+.contact-edit-icon:hover,
+.contact-favorite-icon:hover {
+    color: #ff0000;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.contact-delete-icon:not(:disabled):not(.disabled):active {
+    color: #444;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.contact-delete-icon:not(:disabled):not(.disabled):active:focus {
+    box-shadow: none;
+}
+
+.contact-edit-icon:hover {
+    color: #0a9c60;
+}
+
+.contact-favorite-icon {
+    display: block;
+}
+
+
+.contact-favorite-icon:hover {
+    color: #fb0000;
+}
+
+.alert {
+    margin-top: 10px;
+}
+
+.contact-box .contact-name {
+    color: rgb(195, 203, 202);
+    margin-top: 15px;
+}
+
+.contact-box h6.contact-info {
+    padding-top: 15px;
+}
+
+.save-button {
+    border-radius: 20px;
+    padding: 10px 30px;
+    border: 0px;
+    color: #fff;
+}
+
+.cancel-button {
+    border-radius: 20px;
+    padding: 10px 30px;
+    border: 0px;
+    color: #fff;
+    background: #dedede;
+}
+
+.search-contacts-input {}
+
+.active-link {
+    font-weight: bold;
+}
+
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width:801px) {
+    .contact-box {
+        height: 200px;
+    }
+
+}
